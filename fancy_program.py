@@ -4,7 +4,7 @@ def run_whiz_bang():
     whiz_bang(True, True)
 
 def run_beep_boop():
-    beep_boop(10, 3)
+    beep_boop(5, 3)
 
 def run_whiz_boop():
     pass
