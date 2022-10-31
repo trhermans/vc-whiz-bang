@@ -1,4 +1,7 @@
-def whiz_bang(whiz, bang):
+"""Functions for beeping, whizzing, etc."""
+
+
+def whiz_bang(whiz: bool, bang: bool) -> None:
     """
     If whiz is true then print "Whiz"
     If bang is true then print "Bang
@@ -13,7 +16,16 @@ def whiz_bang(whiz, bang):
     if bang:
         print("Bang")
 
-def beep_boop(beeps, booper):
+
+def beep_boop(beeps: int, booper: int) -> None:
+    """
+    Print a sequence of beeps of boops.
+
+    :param beeps: int giving total number of strings to print
+    :param booper: int that when current iterate evenly divides by booper print boop
+    :return: None
+    """
+
     for i in range(beeps):
         if i % booper == 0:
             print("Boop!")
